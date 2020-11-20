@@ -28,6 +28,7 @@
     "test": "esy b dune exec test/Run.exe",
     "format": "esy b dune build @fmt --auto-promote --root ."
   },
+  "main": "./_build/default/js/Js.bc.js",
   "esy": {
     "build": "dune build -p query-json",
     "buildsInSource": "_build",
